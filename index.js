@@ -1,5 +1,4 @@
-const name = 'Ben Bonno';
-const age = 37;
-const passions = ['Music', 'Dance', 'Radio'];
+const userInformations = require("./userInformation");
 
-console.log(name, age, passions);
+console.log(`Hi, my name is ${userInformations.userName}, i'm ${userInformations.age} old and `);
+userInformations.displayPassions();
