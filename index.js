@@ -1,5 +1,5 @@
-const name = 'John Doe';
-const age = 26;
-const passions = ['Ski', 'Hiking', 'Cinema'];
+const name = 'Ben Bonno';
+const age = 37;
+const passions = ['Music', 'Dance', 'Radio'];
 
 console.log(name, age, passions);
