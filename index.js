@@ -1,4 +1,4 @@
-const userInformations = require("./userInformation");
+const userInfo = require("./userInformation");
 
-console.log(`Hi, my name is ${userInformations.userName}, i'm ${userInformations.age} old and `);
-userInformations.displayPassions();
+console.log(`Hi, my name is ${userInfo.userName}, i'm ${userInfo.age} old and `);
+userInfo.displayPassions();
