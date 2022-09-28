@@ -12,11 +12,16 @@
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/BenBonno/Node1#readme",
   "bugs": {
     "url": "https://github.com/BenBonno/Node1/issues"
   },
-  "homepage": "https://github.com/BenBonno/Node1#readme",
-  "dependencies": {
-    "chalk": "^5.0.1"
-  }
+  
+      "type":"commonjs",
+      "dependencies": {
+        "chalk": "^5.0.0"
+      }
+  
+  
+  
 }
