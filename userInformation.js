@@ -9,8 +9,15 @@ function displayPassions() {
     }
 }
 
-module.exports = {
+// module.exports = {
+//     userName: userName,
+//     age: age,
+//     displayPassions: displayPassions
+// }
+
+const info = {
     userName: userName,
     age: age,
-    displayPassions: displayPassions
+    displayPassions: displayPassions(),
 }
+export { info }
